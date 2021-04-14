@@ -1,0 +1,85 @@
+body{
+    background-color:whitesmoke;
+    overflow: hidden;
+}
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    
+    width: 380px;
+    margin: auto;
+    border-radius: 5px;
+    background:rgb(214,214,214);
+    padding: 15px 15px 20px 20px;
+    background: rgba(0, 0, 0, 0.89);
+    
+    
+}
+#userinput{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 5px;
+    background: whitesmoke;
+    text-align: right;
+    direction: ltr;
+    outline: none;
+    border: 3px solid white;
+    background: whitesmoke;
+    margin-top: 30px;
+    font-size: 38px;
+    
+    
+}
+.btn{
+    width: 24%;
+    height: 60px;
+    margin-top: 10px;
+    background-color:rgb(223, 223, 223);
+    box-shadow: 1px 1px 1px whitesmoke;
+    outline: none;
+    font-size: 25px;
+    border: none;
+   
+    
+}
+.btnEqual{
+    width: 99.8%;
+    height: 60px;
+    font-size: 25px;
+    margin-top: 8px;
+    background-color: red;
+    outline: none;
+    margin-bottom: 20px;
+}
+.btnEqual:hover{
+    transform: scale(1.03);
+}
+#del{
+    background-color: lime;
+    box-shadow: none;
+}
+.btn:hover{
+    transform: scale(1.03);
+    background-color: rgb(189, 185, 185);
+}
+::placeholder{
+    font-size: 40px;
+}
+@media(max-width:480px){
+    .btn{
+        width:23.4% ;
+    }
+}
+@media(max-width:320px){
+    .btn{
+        width:23% ;
+
+    }
+}
